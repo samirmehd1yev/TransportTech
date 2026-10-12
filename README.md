@@ -10,7 +10,3 @@ python -m ipykernel install --prefix "$VIRTUAL_ENV" --name transporttech --displ
 ```sh
 python -m jupyterlab notebooks/Ayna_IsmatSamadov.ipynb
 ```
-
-```sh
-open index.html
-```
