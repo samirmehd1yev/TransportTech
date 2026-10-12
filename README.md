@@ -1,6 +1,6 @@
 # TransportTech
 
-[TransportTech_analysis.ipynb](TransportTech_analysis.ipynb) answers the AYNA hackathon brief using the two supplied KMZ files. It includes executed calculations, data checks, interactive maps, all 185 parking results, and a 65-word proposal in Azerbaijani.
+[Ayna_IsmatSamadov.ipynb](Ayna_IsmatSamadov.ipynb) contains the calculations and a short recommendation in Azerbaijani, using the supplied KMZ files.
 
 Results from the supplied files:
 
@@ -16,10 +16,10 @@ From this project directory:
 
 ```sh
 source .venv/bin/activate
-python -m jupyterlab TransportTech_analysis.ipynb
+python -m jupyterlab Ayna_IsmatSamadov.ipynb
 ```
 
-Select **Python (TransportTech)** as the kernel and choose **Restart Kernel → Run All**. Keep both KMZ files in the notebook's directory with their original filenames. Map rendering needs internet access; calculations use local files.
+Select **Python (TransportTech)** as the kernel and choose **Restart Kernel → Run All**. Keep both KMZ files in the notebook's directory with their original filenames.
 
 The local `.venv` contains the required packages and its own Jupyter kernel. It is excluded from Git. The notebook has been checked with Python 3.14.7.
 
@@ -32,4 +32,4 @@ python -m pip install -r requirements.txt
 python -m ipykernel install --prefix "$VIRTUAL_ENV" --name transporttech --display-name "Python (TransportTech)"
 ```
 
-For submission, rename the notebook to the brief's `Team_Leader.ipynb` format and submit only the notebook.
+Submit only `Ayna_IsmatSamadov.ipynb`.
